@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #a3c8ff;  /* Light blue background */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 20px;  /* Add some space below the header */
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #139dff;  /* Blue background for navbar */
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 30px;  /* Add some space below the navbar */
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.navbar a:hover {
+    color: #f4f7fa; /* Light color on hover */
+}
+
+/* Search Section */
+.search-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.search-input {
+    padding: 15px;
+    font-size: 1.2em;
+    width: 60%;
+    max-width: 600px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;  /* Space between input and button */
+}
+
+.search-button {
+    padding: 15px 25px;
+    font-size: 1.2em;
+    background-color: #139dff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0e7ac6;
+}
+
+/* Result Display */
+.result-container {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.5em;
+}
+
+.result-container p {
+    color: #2d2d2d;
+}
+
+/* Footer */
+.footer {
+    background-color: #139dff;  /* Same blue as navbar */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .search-input {
+        width: 80%;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+}
